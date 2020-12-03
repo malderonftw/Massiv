@@ -68,6 +68,6 @@ public class Massiv : MonoBehaviour
         var array1 = new[] {gameObject, gameObject, null, null, null, null, null};
         var array2 = new[] {Go1, Go2, Go3, Go4, Go5, Go6};
         MethodForTwoArrays(array1, array2);
-        foreach (var g in array1) print(g);
+        //foreach (var g in array1) print(g);
     }
 }
